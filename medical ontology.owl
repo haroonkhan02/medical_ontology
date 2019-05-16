@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Clinical_Pharmacist"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#HealthCare_Provider"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncologist"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Physician"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pharmacist"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Cardiology"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Clinical_Pharmacist"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Community_Pharmacist"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Medical_Oncologist"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncologist"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncology_Pharmacist"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Physician"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Pulmonologist"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Radiation_Oncologist"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pharmacist"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pyschiatric_Pharmacist"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Cardiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Cardiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Physician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Clinical_Pharmacist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Clinical_Pharmacist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pharmacist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Community_Pharmacist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Community_Pharmacist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pharmacist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#HealthCare_Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#HealthCare_Provider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Medical_Oncologist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Medical_Oncologist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncologist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncologist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncologist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Physician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncology_Pharmacist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncology_Pharmacist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Clinical_Pharmacist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Physician -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Physician">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#HealthCare_Provider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Pulmonologist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Pulmonologist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Physician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Radiation_Oncologist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Radiation_Oncologist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Oncologist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pharmacist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pharmacist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#HealthCare_Provider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pyschiatric_Pharmacist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#pyschiatric_Pharmacist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/haroonkhan/ontologies/2019/4/untitled-ontology-4#Clinical_Pharmacist"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
